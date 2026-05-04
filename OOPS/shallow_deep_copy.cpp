@@ -20,7 +20,7 @@ public:
         cgpaptr = new double;
         *cgpaptr = *x.cgpaptr; // deep copy
     }
-    
+
     void getinfo()
     {
         cout << name << endl;

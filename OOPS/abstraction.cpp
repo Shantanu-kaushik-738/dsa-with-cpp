@@ -2,7 +2,7 @@
 using namespace std;
 
 class Shape
-{ //since here is a pure virtual function => this is a abstract class 
+{                            // since here is a pure virtual function => this is a abstract class
     virtual void draw() = 0; // pure virtual function
 };
 

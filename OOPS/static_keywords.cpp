@@ -1,11 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class A{
-    public:
+class A
+{
+public:
     int y;
 
-    void incy(){
+    void incy()
+    {
         y++;
     }
 };
@@ -24,10 +26,10 @@ int main()
     fnx();
 
     A a;
-    a.y=0;
-    cout<<a.y<<endl;
+    a.y = 0;
+    cout << a.y << endl;
     a.incy();
-    cout<<a.y<<endl;
-    
+    cout << a.y << endl;
+
     return 0;
 }
